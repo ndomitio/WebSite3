@@ -1,7 +1,10 @@
 ﻿/*the styling for the parallax scrolling effect*/
-
+/*the styling for the first section and the "skills header"*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+
 
 body, html {
     height: 100%;
@@ -36,25 +39,57 @@ body, html {
 }
 
 .first {
-    height: 500px;
+    height: 450px;
     background-color: black;
     display: flex;
     justify-content: space-around;
 }
 
+.skills {
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*this style sheet section is for the about me in the second background image*/
+
 
 .bgimg-2 {
-    background-image: url('images/IMG_3288.JPG');
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('images/OAYTIV0.jpg');
     min-height: 600px;
+    opacity: 0.75;
 }
 
-.bgimg-3 {
-    min-height: 600px;
-    background-image: url('images/nick.jpg');
+
+
+.aboutme {
+    font-size: 20px;
+    color: rgba(0,0,0,0);
+    width: 300px;
+    height: 300px;
+    background-image: url('images/rsz_11rsz_nick-domitio_headshot.jpg');
+    background-size: cover;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 1s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
 }
-
-
-
+    /*styling for the transitioning effect when the user hovers over the picture in foreground*/
+    .aboutme:hover {
+        text-align: center;
+        color: dimgray;
+        width: 450px;
+        height: 300px;
+        background-image: url('images/86.jpg');
+        /* background: rgba(0,0,0,0);  */
+        -webkit-transform: rotate(360deg); /* Safari */
+        transform: rotate(360deg);
+    }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
