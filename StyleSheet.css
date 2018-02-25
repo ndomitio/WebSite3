@@ -29,7 +29,7 @@ body, html {
     min-height: 100%;
     background-image: url('images/1640.jpg');
     color: dimgray;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
@@ -56,8 +56,7 @@ body, html {
     background-position: center;
     -webkit-background-clip: text;
     color: transparent;
-    // set to transparent, otherwise won't see the background width: 400px;
-    height: 100px;
+    // set to transparent, otherwise won't see the background width: 400px; height: 100px;
     box-sizing: border-box;
     font-size: 65px;
     font-weight: bold;
@@ -94,7 +93,8 @@ body, html {
     /*styling for the transitioning effect when the user hovers over the picture in foreground*/
     .aboutme:hover {
         text-align: center;
-        color: dimgray;
+        color: black;
+        
         width: 450px;
         height: 300px;
         /* background: rgba(0,0,0,0);  */
