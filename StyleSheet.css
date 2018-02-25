@@ -40,19 +40,31 @@ body, html {
 
 .first {
     height: 450px;
-    background-color: black;
+    background-color: #C0C0C0;
     display: flex;
     justify-content: space-around;
 }
 
+/*contains the styling effects for the giphy background of the "skills"/"about me"/"projects" title*/
+/*.skillscontainer {
+    background-color: #C0C0C0;
+}
+    */
 .skills {
-    height: 60px;
-    color: white;
-    font-size: 30px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    // set to transparent, otherwise won't see the background width: 400px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    flex-shrink: 0;
+    border: 5px solid black;
 }
 
 /*this style sheet section is for the about me in the second background image*/
@@ -61,8 +73,8 @@ body, html {
 .bgimg-2 {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    background-image: url('images/OAYTIV0.jpg');
+    align-items: center;
+    background-image: url('images/1640.jpg');
     min-height: 600px;
     opacity: 0.75;
 }
@@ -85,9 +97,9 @@ body, html {
         color: dimgray;
         width: 450px;
         height: 300px;
-        background-image: url('images/86.jpg');
         /* background: rgba(0,0,0,0);  */
-        -webkit-transform: rotate(360deg); /* Safari */
+        -webkit-transform: rotate(360deg);
+        background-image: url('images/white background.png'); /* Safari */
         transform: rotate(360deg);
     }
 /* Turn off parallax scrolling for tablets and phones */
