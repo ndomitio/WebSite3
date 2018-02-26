@@ -1,25 +1,17 @@
-﻿/*This style sheet contains the styling instructions for the fixed/hamburger nav bar at the top of the page*/
-
-
-* {
+﻿* {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'segoe ui';
 }
 
 .nav {
     height: 50px;
     width: 100%;
-    background-color: #111;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
+    background-color: #4d4d4d;
+    position: relative;
 }
 
     .nav > .nav-header {
@@ -47,11 +39,11 @@ body {
             display: inline-block;
             padding: 13px 10px 13px 10px;
             text-decoration: none;
-            color: white;
+            color: #efefef;
         }
 
             .nav > .nav-links > a:hover {
-                background-color: white;
+                background-color: rgba(0, 0, 0, 0.3);
             }
 
     .nav > #nav-check {

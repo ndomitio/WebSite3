@@ -1,7 +1,5 @@
 ﻿/*the styling for the parallax scrolling effect*/
 /*the styling for the first section and the "skills header"*/
-/*this style sheet section contains the about me in the second background image*/
-
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
@@ -31,7 +29,7 @@ body, html {
     min-height: 100%;
     background-image: url('images/1640.jpg');
     color: dimgray;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
@@ -58,7 +56,8 @@ body, html {
     background-position: center;
     -webkit-background-clip: text;
     color: transparent;
-    // set to transparent, otherwise won't see the background width: 400px; height: 100px;
+    // set to transparent, otherwise won't see the background width: 400px;
+    height: 100px;
     box-sizing: border-box;
     font-size: 65px;
     font-weight: bold;
@@ -83,7 +82,7 @@ body, html {
 
 
 .aboutme {
-    font-size: 1.4vw;
+    font-size: 20px;
     color: rgba(0,0,0,0);
     width: 300px;
     height: 300px;
@@ -95,8 +94,7 @@ body, html {
     /*styling for the transitioning effect when the user hovers over the picture in foreground*/
     .aboutme:hover {
         text-align: center;
-        color: black;
-        
+        color: dimgray;
         width: 450px;
         height: 300px;
         /* background: rgba(0,0,0,0);  */
