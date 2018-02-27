@@ -160,3 +160,10 @@ h1 {
     overflow: hidden;
     -webkit-animation: typing 10s steps(12, end), blink-caret .5s step-end infinite alternate;
 }
+/*typewriter effect on the entry page*/
+
+
+* {
+    color: #000;
+    text-decoration: none;
+}
