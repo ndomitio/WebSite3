@@ -9,6 +9,11 @@
         <link href="StyleSheet3.css" rel="stylesheet" />
         <link href="StyleSheet4.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
+
+        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+        <link rel="stylesheet"
+              href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css" />
 
         <title></title>
 </head>
@@ -155,6 +160,16 @@
 
         </section>
     </div>
+    <div class="calendarcontainer">
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+    </div>
+    <script>
+        GitHubCalendar(".calendar", "ndomitio");
+    </script>
+
     <a name="contactpage"></a>
     <div class="bgimg-1">
 

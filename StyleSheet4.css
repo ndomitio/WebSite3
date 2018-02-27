@@ -3,6 +3,8 @@
 
 /*contains the styling for the projects section*/
 /*contains the styling for the footer at bottom*/
+
+/*github calendar styling**/
 @-webkit-keyframes slideshow {
     20% {
         background-image: url('images/PSVIRTUALPET5.png');
@@ -439,4 +441,13 @@
     flex-direction: row;
     justify-content: center;
     align-items:center;
+}
+
+
+
+.calendarcontainer {
+    background-color: #C0C0C0;
+}
+.calendar{
+    background-color:white;
 }
