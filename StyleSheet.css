@@ -46,17 +46,18 @@ body, html {
 }
 
 /*contains the styling effects for the giphy background of the "skills"/"about me"/"projects" title*/
-/*.skillscontainer {
+.skillscontainer {
     background-color: #C0C0C0;
 }
-    */
+    
 .skills {
     background: url(https://media.giphy.com/media/8PB5LrvSuhOP6/giphy.gif);
     background-size: cover;
     background-position: center;
     -webkit-background-clip: text;
     color: transparent;
-    // set to transparent, otherwise won't see the background width: 400px;
+    // set to transparent, otherwise won't see the 
+        background width: 400px;
     height: 100px;
     box-sizing: border-box;
     font-size: 65px;
